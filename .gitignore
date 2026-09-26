@@ -1,0 +1,23 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IDEs ###
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+### Environment & Secrets ###
+.env
+.env.local
+*.log
+
+### Node & Frontend Artifacts ###
+node_modules/
+.vaadin/
+frontend/generated/
+package-lock.json

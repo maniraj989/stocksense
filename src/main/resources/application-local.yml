@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+
+logging:
+  level:
+    root: INFO
+    com.stocksense: DEBUG
+    org.springframework.web: INFO
+    com.vaadin: INFO
